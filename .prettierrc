@@ -1,14 +1,19 @@
 {
   "arrowParens": "avoid",
-  "bracketSpacing": true,
-  "jsxBracketSameLine": true,
+  "bracketSpacing": false,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "printWidth": 80,
+  "proseWrap": "always",
   "quoteProps": "as-needed",
+  "requirePragma": false,
   "rubyArrayLiteral": false,
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "none",
+  "trailingComma": "all",
   "useTabs": false
 }
