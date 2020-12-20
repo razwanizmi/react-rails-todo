@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: rails_react_todo_development
+
+test:
+  <<: *default
+  database: rails_react_todo_test
+
+production:
+  <<: *default
+  database: trb_todos_production
+  username: trb_todos
+  password: 
