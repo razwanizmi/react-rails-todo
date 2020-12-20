@@ -15,4 +15,4 @@ production:
   <<: *default
   database: trb_todos_production
   username: trb_todos
-  password: 
+  password:

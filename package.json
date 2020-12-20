@@ -10,6 +10,15 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@prettier/plugin-ruby": "^1.0.1",
+    "husky": "^4.3.6",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
     "webpack-dev-server": "^3.11.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
