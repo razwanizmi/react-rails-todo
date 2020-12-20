@@ -1,9 +1,8 @@
 import React from 'react'
-
-import * as api from '../api'
+import * as API from 'api'
 
 const Todos = () => (
-  <div>
+  <div className="container">
     <h1>Hello from Todo</h1>
   </div>
 )
